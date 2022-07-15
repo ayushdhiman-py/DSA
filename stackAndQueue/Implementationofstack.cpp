@@ -68,3 +68,22 @@ int main(){
 
 	return 0;
 }
+
+// OUTPUT:
+
+// element pushed : 1
+// element pushed : 2
+// element pushed : 3
+// element pushed : 4
+// element pushed : 5
+// Stack is full
+// 5 is popped out of stack
+// 4 at top
+// false
+// 4 is popped out of stack
+// 3 is popped out of stack
+// 2 is popped out of stack
+// 1 is popped out of stack
+// Stack is empty
+// true
+// -1 at top
