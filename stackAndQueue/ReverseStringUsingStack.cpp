@@ -5,10 +5,11 @@ using namespace std;
 #define ll long long
 int main(){
 	fast;
-
-    stack<int> st;
-
+    
     string s = "Ayush";
+
+    stack<char> st;
+
     string res = "";
 	
     //push all the elements into the stack then add it to the other string
