@@ -5,7 +5,7 @@ using namespace std;
 #define ll long long
 
 void sorted(stack<int> &st, int prevnum){
-    if(st.empty() || (!st.empty()&&st.top()>prevnum)){
+    if(st.empty() || (st.top()>prevnum)){
         st.push(prevnum);
         return;
     }
@@ -43,4 +43,4 @@ int main(){
 }
 
 // OUTPUT:
-// 2  10  31
+// 
